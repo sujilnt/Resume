@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<!--
+This is an HTML document. It contains information about how elements in the website
+are arranged. In other words, it describes the layout of a website.
+
+I can't wait to see the resumes you put together!
+
+Cameron Pittman, Udacity Course Developer
+-->
+
+<!--
+The <head> of a website generally links to important resources the page will
+need to load. You'll see a lot of <link>s to CSS files for styles and
+<scripts> for JavaScript files to build interactions.
+-->
+<head>
+    <!-- This tells the browser how to read the document. -->
+    <meta charset="utf-8">
+
+    <!-- Tells the browser what the title of this page should be. -->
+    <title>Sujil Anto | Resume </title>
+
+    <!-- Load the page styles. -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <!--
+    jQuery is a common JavaScript library for reading and making changes to the
+    Document Object Model (DOM). The DOM is a tree that contains information
+    about what is actually visible on a website.
+
+    While HTML is a static document, the browser converts HTML to the
+    DOM and the DOM can change. In fact, JavaScript's power comes from
+    its ability to manipulate the DOM, which is essentially a JavaScript
+    object. When JavaScript makes something interesting happen on a
+    website, it's likely the action happened because JavaScript changed
+    the DOM. jQuery is fast and easy to use, but it doesn't do anything
+    you can't accomplish with vanilla (regular) JavaScript.
+    -->
+    <script src="js/jQuery.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'>
+    <!-- More on helper.js in the class -->
+    <script src="js/helper.js"></script>
+
+    <!--
+    Uncomment the <script> tag below when you're ready to add an interactive
+    Google Map to your resume!
+    -->
+    <!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script> -->
+
+    <meta name="viewport" content="width=device-width">
+</head>
+<body unresolved>
+<div id="main">
+    <!-- You'll be deleting this line in the course -->
+
+    <!--
+    Everything from here to the <script> tag below is the skeleton of your
+    website. Your code will add information to each of the sections of the
+    resume below. You can pretty easily figure out what each section will
+    display by looking at the id or at what's written between the <h2> tags.
+    -->
+    <div id="header" class="center-content clearfix"><h1 id="name">Sujil Anto</h1>
+        <span class="wheatcolorspan">Web developer</span>
+        <hr>
+        <ul id="topContacts" class="flex-box">
+            <li class="flex-item">
+            <span class="orange-text">mobile</span>
+            <span class="white-text">+91-963251080</span>
+            </li>
+            <li class="flex-item">
+                <span class="orange-text">email</span>
+                <span class="white-text">sujilnt@gmail.com</span></li>
+            <li class="flex-item">
+                <span class="orange-text">github</span>
+                <span class="white-text"><a href="http://www.github.com/sujilnt" class="link">Sujilnt</a></span></li>
+            <li class="flex-item">
+                <span class="orange-text">twitter</span>
+                <span class="white-text"><a href="http://www.twitter.com/sujilanto" class="link">Sujil Anto</a></span></li>
+            <li class="flex-item">
+                <span class="orange-text">location</span>
+                <span class="white-text">Bangalore,India</span></li>
+        </ul>
+        <div class="relative">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <img src="images/s.png" class="biopic picstyle">
+        </div>
+
+        <span class="welcome-message"> &nbsp;&nbsp;Hi I'm Sujil , love to learn and code.</span>
+        <h3 id="skillsH3">&nbsp;&nbsp;Skills at a Glance:</h3>
+        <ul id="skills" class="flex-box">
+            <li class="flex-item"><span class="white-text">Html5 , Css3 , Javascript , working on Js frameworks  Reactjs and D3js, Mastering css frameworks like  Bootstrap 3 , Foundation 5 ,Saas and Google Material Design ,Good Knowledge about Jquery, and Git.</span></li>
+        </ul>
+        <nav id="nav-bar">
+            <ul id="nav-menu">
+                <li><a class="nav-item " href="#main">HOME</a>
+                </li>
+                <li><a class="nav-item " href="#contaner">WORK EXPERIENCE</a>
+                </li>
+                <li><a class="nav-item" href="#projects">PROJECTS</a>
+                </li>
+                <li><a class="nav-item" href="#education">EDUCATION AND CERTIFICATION</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div style='clear: both;'></div>
+    <div id="contaner">
+        <div id="workExperience" class="gray arrange-nav">
+            <h2>Work Experience</h2>
+            <div class="work-entry "></div>
+            <div class="move-to-right no-padding-right">
+                <a href="#">App to Succed</a>
+            </div>- Web developer<div class="date-text move-to-right">dec 2015 - till now </div>
+            <div class="location-text">(Virtual Internship)Stamford,Usa</div>
+            <div class="move-to-right"><p><br>This is a virtual job ,Where I work from home for Us Based Company .Still the product is under development,Expecting its Launch asap in the market.</p></div>
+            <div class="work-entry "></div><div class="move-to-right no-padding-right"><a href="#"> Gerg Store</a></div>- Web developer
+            <div class="date-text move-to-right">june 2014 - dec 2014</div>
+            <div class="location-text">Bangalore,India</div>
+            <div class="move-to-right"><p><br>I was working as an Front End Web Developer in the store,This is website was completely developed in php, And also we used content Management System called 'Prestashop' Through this job I learnt to use photoshop and Social Engine Optimization .</p></div>
+            <div class="work-entry "></div><div class="move-to-right no-padding-right"><a href="#"> We Chat Mobile App</a></div>- Campus Ambassidor<div class="date-text move-to-right">Feb 2014 - April 2014</div>
+            <div class="location-text">Bangalore,India</div><div class="move-to-right"><p><br>To empower the experience of mobile products.Work for product improvement by performing a set of activities on a daily activities on daily basis through the internship period.I was head of theWechat Campus Ambassidor in my college , 'T John Institute Of Technology '. My task was manual wechat mobile app Testing. I was managing a team of 8. </p></div></div>
+    </div>
+    <div id="projects" class="arrange-nav">
+        <h2>Projects</h2>
+        <div class="project-entry"></div>
+        <div class="move-to-right"><a href="#">WebmasterBlog</a></div>
+        <div class="date-text move-to-right ">Oct 2014- Till Now</div>
+        <div class="move-to-right"><p><br>This is the my personal blog,Where I write about technology and stuffs . The Theme was customised by myself from the template I got .Through this project I learnt Xml, Css and Javascript.I also love to write contents in the web  for seo.<a href="http:www.webmastersblog.org"><b>Live demo</b></a></p></div>
+        <img src="images/web.png" class=" move-to-right">
+        <div class="project-entry"></div><div class="move-to-right"><a href="#">Mobile Portfolio Website</a></div>
+        <div class="date-text move-to-right ">June 2014- Sept 2014</div>
+        <div class="move-to-right"><p><br>This is a portfolio website where I learn to create a webpage from scratch from TeamTreehouse.This website runs in all the devices from Tv to mobile screens.Major Concepts learnt here is Media queries of jquery and css in such a way to fit in all the screens.<a href="http://sujilnt.github.io/portfolio1/index.html"><b>Live demo</b></a></p></div>
+        <img src="images/portfolio1.png" class=" move-to-right">
+        <img src="images/ipag-small.png" class=" move-to-right">
+        <img src="images/mobile.png" class=" move-to-right">
+        <div class="project-entry"></div><div class="move-to-right"><a href="#">Codepen Project</a></div>
+        <div class="date-text move-to-right ">June 2014- Sept 2014</div>
+        <div class="move-to-right"><p><br><p>I have done some of css projects in codepen and github for more.<a href="http://www.codepen.com/sujilnt"></a> </p></p><a href="http:www.codepen.io/sujilnt"><b>Live demo</b></a></div>
+        <img src="images/codepen1.png" style="width:180px" class=" move-to-right">
+        <div></div>
+       </div>
+
+        <!--<div class="project-entry"></div>
+        <div class="move-to-right"><a href="#">The Neighbourhood Map </a></div>
+        <div class="date-text move-to-right ">Still working will finishing by march 1st</div>
+        <div class="move-to-right"><p><br>This web app is a neighborhood map page that shows popular places in the user defined location, and it was the fifth project for Udacity's Front-End Nanodegree. The project was built on Google App Engine, with Knockout.js framework. The project was focused on using external APIs and MVVM pattern to make a single page web app.</p></div>
+        <img src="http://dw-resume.appspot.com/images/dw_neighborhood_s.jpg" class=" move-to-right"></div>
+    <div id="education" class="gray arrange-nav ">
+    -->
+    <div id="education" class="gray arrange-nav ">
+        <h2>Education</h2>
+        <div class="education-entry"></div><div class="move-to-right"><a href="#">T John Institute of Technology</a></div><div class="move-to-right"><a href="#">Bachelors in Information Science Engineering </a></div><div class="location-text">Bangalore,India</div><div class="move-to-right"><p><br>I pursued Information Science Engineering from T john Institute of Technology.The project that I worked is '<b>On Traffic-Aware Partition and Aggregation in Map Reduce for Bigdata Application</b>'. </p></div><h3>Online Cerification  Classes</h3><div class="move-to-right"><a href="#">Introduction to Java Programming </a></div><div class="move-to-right"><a href="#"></a><a href="www.Udacity.com">Udacity</a></div><div class="hrcss"><hr></div><div class="move-to-right"><a href="#">Introduction to Designing things on Web </a></div><div class="move-to-right"><a href="#"></a><a href="www.Udacity.com">Udacity</a></div><div class="hrcss"><hr></div><div class="move-to-right"><a href="#">Data Scientist toolbox Certification </a></div><div class="move-to-right"><a href="#"></a><a href="www.Coursera.org">Coursera</a></div><div class="hrcss"><hr></div></div>
+    <div id="skillsChart">
+        <h2>Skills Chart</h2>
+        <svg class="chart" style="width: 1323px; height: 310px;"><g transform="translate(67,30)"><g class="x axis" transform="translate(0,250)"><g class="tick" transform="translate(0,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy=".71em" y="9" x="0" style="text-anchor: middle;"></text></g><g class="tick" transform="translate(245.4,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy=".71em" y="9" x="0" style="text-anchor: middle;">Beginner</text></g><g class="tick" transform="translate(490.8,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy=".71em" y="9" x="0" style="text-anchor: middle;">Intermediate</text></g><g class="tick" transform="translate(736.1999999999999,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy=".71em" y="9" x="0" style="text-anchor: middle;">Advanced</text></g><g class="tick" transform="translate(981.6,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy=".71em" y="9" x="0" style="text-anchor: middle;">Expert</text></g><g class="tick" transform="translate(1227,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy=".71em" y="9" x="0" style="text-anchor: middle;">Master</text></g><path class="domain" d="M0,6V0H1227V6"></path></g><g class="bar" transform="translate(0,0)"><rect width="490.8" height="45"></rect><text x="15" y="25" dy=".35em">HTML</text></g><g class="bar" transform="translate(0,50)"><rect width="453.99" height="45"></rect><text x="15" y="25" dy=".35em">CSS</text></g><g class="bar" transform="translate(0,100)"><rect width="638.0400000000001" height="45"></rect><text x="15" y="25" dy=".35em"> JavaScript</text></g><g class="bar" transform="translate(0,150)"><rect width="613.5" height="45"></rect><text x="15" y="25" dy=".35em">jQuery</text></g><g class="bar" transform="translate(0,200)"><rect width="245.4" height="45"></rect><text x="15" y="25" dy=".35em">d3.js</text></g></g></svg>
+    </div>
+    <div id="mapDiv" class="move-to-right">
+        <h2>Where I've Lived and Worked</h2>
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='padding-left:5%;overflow:hidden;height:400px;width:1000px;'><div id='gmap_canvas' style='height:400px;width:1000px;'></div><div><small><a href="http://embedgooglemaps.com">                 embed google map              </a></small></div><div><small><a href="http://freedirectorysubmissionsites.com">directory submission sites</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:2,center:new google.maps.LatLng(12.9606546,77.49664689999997),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(12.9606546,77.49664689999997)});infowindow = new google.maps.InfoWindow({content:'<strong>places I worked </strong><br>gergstore Jayanagar 9th block ,Bangalore ,India<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
+    </div>
+    <div id="letsConnect" class='dark-gray '>
+        <h2 class='orange center-text'><a href="https://www.facebook.com/sujil.anto">Let's Connect</a></h2>
+        <ul id="footerContacts" class="flex-box">
+        </ul>
+    </div>
+</div>
+
+<!--
+The next line tells the browser where to download the JavaScript file you'll be
+writing. In resumeBuilder.js, you'll be writing code that builds the resume
+dynamically when this website, index.html, is opened.
+-->
+<script src="js/resumeBuilder.js"></script>
+<script src="js/interaction.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js" charset="utf-8"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDtwE-aGCGH5JJyJdW_4SfY_adZtkp8mao"></script>
+
+
+<!--
+These scripts are written in JavaScript. You'll be breaking them down as part of
+a quiz. Essentially, the next few lines are checking to see if you have not
+changed each section of the resume. If you have not made any changes to a section
+of the resume, then that part of the resume does not show up. More on this in the
+course.
+-->
+
+<script type="text/javascript">
+    // Notice how all of a sudden there's JavaScript inside this HTML
+    // document? You can write JavaScript between <script> tags. At the end of your
+    // JavaScript, don't forget the closing script tag with the slash (/).
+
+
+    // Also, this is a JavaScript style comment. You can comment in JavaScript with:
+
+    //   two slashes for all following characters on a single line, or
+
+    /*
+     an opening and closing set of slash asterisks for block comments.
+     */
+
+
+    if(document.getElementsByClassName('flex-item').length === 0) {
+        document.getElementById('topContacts').style.display = 'none';
+    }
+    if(document.getElementsByTagName('h1').length === 0) {
+        document.getElementById('header').style.display = 'none';
+    }
+    if(document.getElementsByClassName('work-entry').length === 0) {
+        document.getElementById('workExperience').style.display = 'none';
+    }
+    if(document.getElementsByClassName('project-entry').length === 0) {
+        document.getElementById('projects').style.display = 'none';
+    }
+    if(document.getElementsByClassName('education-entry').length === 0) {
+        document.getElementById('education').style.display = 'none';
+    }
+    if(document.getElementsByClassName('flex-item').length === 0) {
+        document.getElementById('letsConnect').style.display = 'none';
+    }
+
+</script>
+</body>
+</html>
